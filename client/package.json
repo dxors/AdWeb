@@ -1,0 +1,35 @@
+{
+  "name": "vue-project",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host & xmysql -h localhost -u root -p .Recall2207 -d logistics",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "bcrypt": "^5.1.1",
+    "bootstrap": "^5.3.3",
+    "flowbite": "^2.3.0",
+    "flowbite-vue": "^0.1.4",
+    "vue": "^3.4.21",
+    "vue-contenteditable": "^4.1.0",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.8.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "prettier": "^3.2.5",
+    "tailwindcss": "^3.4.3",
+    "unplugin-vue-components": "^0.27.0",
+    "vite": "^5.2.8"
+  }
+}
